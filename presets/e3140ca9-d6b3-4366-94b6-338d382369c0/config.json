@@ -3,6 +3,17 @@
   "id": "e3140ca9-d6b3-4366-94b6-338d382369c0",
   "bridget": {
     "chat": {
+      "widgets": {
+        "tradeControls": {
+          "enable": true
+        },
+        "cards": {
+          "props": {
+            "nav_btns": "responsive",
+            "nav_dots": "responsive"
+          }
+        }
+      },
       "props": {
         "showAnswerAnimationProgress": true,
         "footerBoxShadow": false
@@ -35,14 +46,6 @@
         "props": {
           "showTitle": true,
           "items": 3
-        }
-      },
-      "widgets": {
-        "cards": {
-          "props": {
-            "nav_btns": "responsive",
-            "nav_dots": "responsive"
-          }
         }
       }
     },
