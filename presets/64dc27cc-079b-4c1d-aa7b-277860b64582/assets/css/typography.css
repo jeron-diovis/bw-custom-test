@@ -1,12 +1,5 @@
 @font-face {
               font-family: inter;
-              src: url("https://assets.dev-bridgewise.com/customization/64dc27cc-079b-4c1d-aa7b-277860b64582/assets/font/thin-inter.ttf") format("truetype");
-              font-weight: 100;
-              font-display: swap;
-            }
-
-@font-face {
-              font-family: inter;
               src: url("https://assets.dev-bridgewise.com/customization/64dc27cc-079b-4c1d-aa7b-277860b64582/assets/font/black-inter.ttf") format("truetype");
               font-weight: 900;
               font-display: swap;
@@ -61,6 +54,13 @@
               font-display: swap;
             }
 
+@font-face {
+              font-family: inter;
+              src: url("https://assets.dev-bridgewise.com/customization/64dc27cc-079b-4c1d-aa7b-277860b64582/assets/font/thin-inter.ttf") format("truetype");
+              font-weight: 100;
+              font-display: swap;
+            }
+
 
         .font_roboto {
           font-family: inter !important;
@@ -77,8 +77,8 @@
   --typography-h2: 1.75rem; /* 28px font size*/
   --typography-h2--line-height: 2.25rem; /* 36px line height*/
 
-  --typography-h3: 1.5rem; /* 24px font size*/
-  --typography-h3--line-height: 2rem; /* 32px line height*/
+  --typography-h3: 22px;
+  --typography-h3--line-height: 32px;
 
   --typography-h4: 1.25rem; /* 20px font size*/
   --typography-h4--line-height: 1.75rem; /* 28px line height*/
@@ -98,8 +98,8 @@
   --typography-body-2-tight: 0.875rem; /* 14px font size*/
   --typography-body-2-tight--line-height: 1rem; /* 16px line height*/
 
-  --typography-body-3-loose: 0.75rem; /* 12px font size*/
-  --typography-body-3-loose--line-height: 1rem; /* 16px line height*/
+  --typography-body-3-loose: 10px;
+  --typography-body-3-loose--line-height: 12px;
 
   --typography-body-3-tight: 0.75rem; /* 12px font size*/
   --typography-body-3-tight--line-height: 0.75rem; /* 12px line height*/
