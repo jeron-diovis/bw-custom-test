@@ -438,10 +438,14 @@
   },
   "stock-news": {
     "filter": {
-      "hideLanguageSelector": true
+      "hideLanguageSelector": true,
+      "dropdownButtonBorderRadius": "moderate"
     },
     "error": {
       "filterBody": " נסה לשנות את התאריך כדי לראות תוצאות נוספות."
+    },
+    "articleItemTitle": {
+      "fontWeight": "medium"
     }
   }
 }
