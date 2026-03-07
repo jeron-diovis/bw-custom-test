@@ -4,11 +4,16 @@
   "bridget": {
     "teaser": {
       "card": {
+        "className": "bg-[url('data:image/svg+xml,%3Csvg%20width%3D%22343%22%20height%3D%22409%22%20viewBox%3D%220%200%20343%20409%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cg%20clip-path%3D%22url(%23clip0_2062_882)%22%3E%20%3Cg%20filter%3D%22url(%23filter0_f_2062_882)%22%3E%20%3Cellipse%20cx%3D%22-85.9786%22%20cy%3D%22230%22%20rx%3D%22141.773%22%20ry%3D%22155%22%20fill%3D%22%23431F4D%22%20fill-opacity%3D%220.2%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20filter%3D%22url(%23filter1_f_2062_882)%22%3E%20%3Cellipse%20cx%3D%22-5.48804%22%20cy%3D%2266%22%20rx%3D%2273.1733%22%20ry%3D%2280%22%20fill%3D%22%2300BC6E%22%20fill-opacity%3D%220.1%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20filter%3D%22url(%23filter2_f_2062_882)%22%3E%20%3Ccircle%20cx%3D%22353%22%20cy%3D%22-14%22%20r%3D%2280%22%20fill%3D%22%23E2CD7C%22%20fill-opacity%3D%220.1%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20filter%3D%22url(%23filter3_f_2062_882)%22%3E%20%3Ccircle%20cx%3D%22383%22%20cy%3D%22230%22%20r%3D%22155%22%20fill%3D%22%23FF8075%22%20fill-opacity%3D%220.1%22%2F%3E%20%3C%2Fg%3E%20%3C%2Fg%3E%20%3Cdefs%3E%20%3Cfilter%20id%3D%22filter0_f_2062_882%22%20x%3D%22-395.952%22%20y%3D%22-93.2%22%20width%3D%22619.947%22%20height%3D%22646.4%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%20%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%20%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22shape%22%2F%3E%20%3CfeGaussianBlur%20stdDeviation%3D%2284.1%22%20result%3D%22effect1_foregroundBlur_2062_882%22%2F%3E%20%3C%2Ffilter%3E%20%3Cfilter%20id%3D%22filter1_f_2062_882%22%20x%3D%22-246.861%22%20y%3D%22-182.2%22%20width%3D%22482.747%22%20height%3D%22496.4%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%20%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%20%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22shape%22%2F%3E%20%3CfeGaussianBlur%20stdDeviation%3D%2284.1%22%20result%3D%22effect1_foregroundBlur_2062_882%22%2F%3E%20%3C%2Ffilter%3E%20%3Cfilter%20id%3D%22filter2_f_2062_882%22%20x%3D%22104.8%22%20y%3D%22-262.2%22%20width%3D%22496.4%22%20height%3D%22496.4%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%20%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%20%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22shape%22%2F%3E%20%3CfeGaussianBlur%20stdDeviation%3D%2284.1%22%20result%3D%22effect1_foregroundBlur_2062_882%22%2F%3E%20%3C%2Ffilter%3E%20%3Cfilter%20id%3D%22filter3_f_2062_882%22%20x%3D%2259.8%22%20y%3D%22-93.2%22%20width%3D%22646.4%22%20height%3D%22646.4%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%20%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%20%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22shape%22%2F%3E%20%3CfeGaussianBlur%20stdDeviation%3D%2284.1%22%20result%3D%22effect1_foregroundBlur_2062_882%22%2F%3E%20%3C%2Ffilter%3E%20%3CclipPath%20id%3D%22clip0_2062_882%22%3E%20%3Crect%20width%3D%22343%22%20height%3D%22462%22%20fill%3D%22white%22%2F%3E%20%3C%2FclipPath%3E%20%3C%2Fdefs%3E%20%3C%2Fsvg%3E')] bg-cover bg-center bg-no-repeat",
         "bgImage": "<svg width=\"343\" height=\"409\" viewBox=\"0 0 343 409\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <g clip-path=\"url(#clip0_2062_882)\"> <g filter=\"url(#filter0_f_2062_882)\"> <ellipse cx=\"-85.9786\" cy=\"230\" rx=\"141.773\" ry=\"155\" fill=\"#431F4D\" fill-opacity=\"0.2\"/> </g> <g filter=\"url(#filter1_f_2062_882)\"> <ellipse cx=\"-5.48804\" cy=\"66\" rx=\"73.1733\" ry=\"80\" fill=\"#00BC6E\" fill-opacity=\"0.1\"/> </g> <g filter=\"url(#filter2_f_2062_882)\"> <circle cx=\"353\" cy=\"-14\" r=\"80\" fill=\"#E2CD7C\" fill-opacity=\"0.1\"/> </g> <g filter=\"url(#filter3_f_2062_882)\"> <circle cx=\"383\" cy=\"230\" r=\"155\" fill=\"#FF8075\" fill-opacity=\"0.1\"/> </g> </g> <defs> <filter id=\"filter0_f_2062_882\" x=\"-395.952\" y=\"-93.2\" width=\"619.947\" height=\"646.4\" filterUnits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\"> <feFlood flood-opacity=\"0\" result=\"BackgroundImageFix\"/> <feBlend mode=\"normal\" in=\"SourceGraphic\" in2=\"BackgroundImageFix\" result=\"shape\"/> <feGaussianBlur stdDeviation=\"84.1\" result=\"effect1_foregroundBlur_2062_882\"/> </filter> <filter id=\"filter1_f_2062_882\" x=\"-246.861\" y=\"-182.2\" width=\"482.747\" height=\"496.4\" filterUnits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\"> <feFlood flood-opacity=\"0\" result=\"BackgroundImageFix\"/> <feBlend mode=\"normal\" in=\"SourceGraphic\" in2=\"BackgroundImageFix\" result=\"shape\"/> <feGaussianBlur stdDeviation=\"84.1\" result=\"effect1_foregroundBlur_2062_882\"/> </filter> <filter id=\"filter2_f_2062_882\" x=\"104.8\" y=\"-262.2\" width=\"496.4\" height=\"496.4\" filterUnits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\"> <feFlood flood-opacity=\"0\" result=\"BackgroundImageFix\"/> <feBlend mode=\"normal\" in=\"SourceGraphic\" in2=\"BackgroundImageFix\" result=\"shape\"/> <feGaussianBlur stdDeviation=\"84.1\" result=\"effect1_foregroundBlur_2062_882\"/> </filter> <filter id=\"filter3_f_2062_882\" x=\"59.8\" y=\"-93.2\" width=\"646.4\" height=\"646.4\" filterUnits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\"> <feFlood flood-opacity=\"0\" result=\"BackgroundImageFix\"/> <feBlend mode=\"normal\" in=\"SourceGraphic\" in2=\"BackgroundImageFix\" result=\"shape\"/> <feGaussianBlur stdDeviation=\"84.1\" result=\"effect1_foregroundBlur_2062_882\"/> </filter> <clipPath id=\"clip0_2062_882\"> <rect width=\"343\" height=\"462\" fill=\"white\"/> </clipPath> </defs> </svg>",
         "bgImageLight": "<svg width=\"343\" height=\"409\" viewBox=\"0 0 343 409\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <g clip-path=\"url(#clip0_2062_882)\"> <g filter=\"url(#filter0_f_2062_882)\"> <ellipse cx=\"-85.9786\" cy=\"230\" rx=\"141.773\" ry=\"155\" fill=\"#431F4D\" fill-opacity=\"0.2\"/> </g> <g filter=\"url(#filter1_f_2062_882)\"> <ellipse cx=\"-5.48804\" cy=\"66\" rx=\"73.1733\" ry=\"80\" fill=\"#00BC6E\" fill-opacity=\"0.1\"/> </g> <g filter=\"url(#filter2_f_2062_882)\"> <circle cx=\"353\" cy=\"-14\" r=\"80\" fill=\"#E2CD7C\" fill-opacity=\"0.1\"/> </g> <g filter=\"url(#filter3_f_2062_882)\"> <circle cx=\"383\" cy=\"230\" r=\"155\" fill=\"#FF8075\" fill-opacity=\"0.1\"/> </g> </g> <defs> <filter id=\"filter0_f_2062_882\" x=\"-395.952\" y=\"-93.2\" width=\"619.947\" height=\"646.4\" filterUnits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\"> <feFlood flood-opacity=\"0\" result=\"BackgroundImageFix\"/> <feBlend mode=\"normal\" in=\"SourceGraphic\" in2=\"BackgroundImageFix\" result=\"shape\"/> <feGaussianBlur stdDeviation=\"84.1\" result=\"effect1_foregroundBlur_2062_882\"/> </filter> <filter id=\"filter1_f_2062_882\" x=\"-246.861\" y=\"-182.2\" width=\"482.747\" height=\"496.4\" filterUnits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\"> <feFlood flood-opacity=\"0\" result=\"BackgroundImageFix\"/> <feBlend mode=\"normal\" in=\"SourceGraphic\" in2=\"BackgroundImageFix\" result=\"shape\"/> <feGaussianBlur stdDeviation=\"84.1\" result=\"effect1_foregroundBlur_2062_882\"/> </filter> <filter id=\"filter2_f_2062_882\" x=\"104.8\" y=\"-262.2\" width=\"496.4\" height=\"496.4\" filterUnits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\"> <feFlood flood-opacity=\"0\" result=\"BackgroundImageFix\"/> <feBlend mode=\"normal\" in=\"SourceGraphic\" in2=\"BackgroundImageFix\" result=\"shape\"/> <feGaussianBlur stdDeviation=\"84.1\" result=\"effect1_foregroundBlur_2062_882\"/> </filter> <filter id=\"filter3_f_2062_882\" x=\"59.8\" y=\"-93.2\" width=\"646.4\" height=\"646.4\" filterUnits=\"userSpaceOnUse\" color-interpolation-filters=\"sRGB\"> <feFlood flood-opacity=\"0\" result=\"BackgroundImageFix\"/> <feBlend mode=\"normal\" in=\"SourceGraphic\" in2=\"BackgroundImageFix\" result=\"shape\"/> <feGaussianBlur stdDeviation=\"84.1\" result=\"effect1_foregroundBlur_2062_882\"/> </filter> <clipPath id=\"clip0_2062_882\"> <rect width=\"343\" height=\"462\" fill=\"white\"/> </clipPath> </defs> </svg>",
         "bgImageDark": ""
       },
+      "submitButton": {
+        "hidden": true
+      },
       "prompts": {
+        "maxItems": 3,
         "max_items": 3,
         "items0": "סכם לי את החדשות החשובות בשוק הפיננסי בשבוע האחרון",
         "items1": "מה דעת האנליסטים על מניית Apple?",
@@ -24,20 +29,31 @@
         "subtitle_stock": "שאל כל שאלה על מניות שמעניינות אותך, קבל תובנות AI בזמן אמת, ייעוץ מותאם, דו״חות ועוד.",
         "title_alignment": "center",
         "subtitle_alignment": "center",
-        "variant": "icon"
+        "variant": "icon",
+        "subtitleStock": "שאל כל שאלה על מניות שמעניינות אותך, קבל תובנות AI בזמן אמת, ייעוץ מותאם, דו״חות ועוד.",
+        "titleAlignment": "center",
+        "subtitleAlignment": "center"
       },
       "input": {
         "title": "איך אפשר לעזור לך?",
         "placeholder": "מה מעניין אותך לדעת?",
         "placeholder_stock": "מה מעניין אותך לדעת?",
         "title_stock": "איך אפשר לעזור לך?",
-        "title_alignment": "center"
+        "title_alignment": "center",
+        "borderRadius": "round",
+        "titleStock": "איך אפשר לעזור לך?",
+        "placeholderStock": "מה מעניין אותך לדעת?",
+        "titleAlignment": "center"
       },
       "promptButton": {
         "button": {
           "variant": "system",
           "iconPosition": "end",
-          "fluid": true
+          "fluid": true,
+          "borderRadius": "2xl"
+        },
+        "typography": {
+          "weight": "regular"
         }
       }
     }

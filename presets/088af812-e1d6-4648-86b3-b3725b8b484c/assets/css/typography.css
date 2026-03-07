@@ -1,0 +1,39 @@
+@theme inline {
+  /*Typography */
+  --typography-h1: 2rem; /* 32px font size*/
+  --typography-h1--line-height: 2.5rem; /* 40px line height*/
+
+  --typography-h2: 1.75rem; /* 28px font size*/
+  --typography-h2--line-height: 2.25rem; /* 36px line height*/
+
+  --typography-h3: 1.5rem; /* 24px font size*/
+  --typography-h3--line-height: 2rem; /* 32px line height*/
+
+  --typography-h4: 1.25rem; /* 20px font size*/
+  --typography-h4--line-height: 1.75rem; /* 28px line height*/
+
+  --typography-h5: 1.125rem; /* 18px font size*/
+  --typography-h5--line-height: 1.5rem; /* 24px line height*/
+
+  --typography-body-loose: 1rem; /* 16px font size*/
+  --typography-body-loose--line-height: 1.5rem; /* 24px line height*/
+
+  --typography-body-tight: 1rem; /* 16px font size*/
+  --typography-body-tight--line-height: 1.25rem; /* 20px line height*/
+
+  --typography-body-2-loose: 0.875rem; /* 14px font size*/
+  --typography-body-2-loose--line-height: 1rem;
+
+  --typography-body-2-tight: 0.875rem; /* 14px font size*/
+  --typography-body-2-tight--line-height: 1rem; /* 16px line height*/
+
+  --typography-body-3-loose: 0.75rem; /* 12px font size*/
+  --typography-body-3-loose--line-height: 1rem; /* 16px line height*/
+
+  --typography-body-3-tight: 0.75rem; /* 12px font size*/
+  --typography-body-3-tight--line-height: 0.75rem; /* 12px line height*/
+
+  /* Font Families */
+  --font-family-roboto: "Roboto", system-ui, sans-serif;
+  --font-family-roboto-mono: "Roboto Mono", "Monaco", monospace;
+}
