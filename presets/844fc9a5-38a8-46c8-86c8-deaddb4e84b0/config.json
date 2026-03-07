@@ -147,6 +147,11 @@
     },
     "tableLink": {
       "linkTypographyClassname": "text-text-primary! font-regular! underline!"
+    },
+    "link": {
+      "textDecoration": "underline",
+      "fontWeight": "400",
+      "color": "var(--text-text-primary)"
     }
   },
   "fund-holdings-ai-rating-breakdown": {
@@ -171,7 +176,7 @@
     "header": {
       "subtitle": {
         "show": true,
-        "text": "בשוק שמשתנה כל יום, טוב לדעת שיש עם מי להתייעץ. שיחה קצרה עם הצ׳אט הופכת כל השקעה לחכמה יותר",
+        "text": "בשוק שמשתנה כל יום, טוב לדעת שיש את מי לשאול. שיחה קצרה עם הצ'אט יכולה לתמוך בתהליך קבלת ההחלטות.",
         "fontSize": "body2Loose",
         "weight": "medium"
       },
