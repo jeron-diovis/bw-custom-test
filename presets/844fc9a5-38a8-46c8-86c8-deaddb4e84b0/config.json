@@ -173,96 +173,6 @@
     }
   },
   "bridget": {
-    "header": {
-      "subtitle": {
-        "show": true,
-        "text": "בשוק שמשתנה כל יום, טוב לדעת שיש את מי לשאול. שיחה קצרה עם הצ'אט יכולה לתמוך בתהליך קבלת ההחלטות.",
-        "fontSize": "body2Loose",
-        "weight": "medium"
-      },
-      "title": {
-        "text": "MyAgent chat",
-        "weight": "bold",
-        "fontSize": "h3"
-      }
-    },
-    "examples": {
-      "props": {
-        "": {
-          "titleAlign": "start",
-          "max_items": 4
-        },
-        "titleAlign": "center",
-        "max_items": 3,
-        "variant": "buttons",
-        "items": [
-          {
-            "text": "מה החדשות האחרונות על {companyName}?"
-          },
-          {
-            "text": "מה היו הביצועים של {companyName} בשנה האחרונה?"
-          },
-          {
-            "text": "איך המודל העסקי של {companyName} מבדיל אותה מחברות אחרות?"
-          }
-        ],
-        "title": "מה אפשר לשאול? הנה כמה כיוונים",
-        "titlePadding": "0 0 12px 0"
-      },
-      "title": {
-        "align": "center"
-      },
-      "typography": {
-        "weight": "medium"
-      },
-      "promptButtonTypography": {
-        "weight": "medium"
-      },
-      "titleTypography": {
-        "fontSize": "body2Loose",
-        "weight": "bold"
-      }
-    },
-    "prompt": {
-      "props": {
-        "multiline": true,
-        "radius": "round",
-        "padding": "none",
-        "minHeight": "54px",
-        "maxHeight": "96px",
-        "paddingOverride": "4px 16px 4px 4px",
-        "borderRadiusOverride": "100px",
-        "borderRadiusMultiline": "14px"
-      },
-      "text": {
-        "align": "center",
-        "placeholder": "זה המקום לשאול מה שרצית",
-        "fontSize": "body1Loose",
-        "weight": "medium"
-      },
-      "button": {
-        "variant": "solid",
-        "size": "lg",
-        "align": "end",
-        "show": true
-      }
-    },
-    "disclaimer": {
-      "footer": {
-        "show": true,
-        "align": "start",
-        "text": "המידע המוצג כאן נועד להכוונה כללית בלבד ואינו מהווה ייעוץ השקעות אישי. {link:צפייה בגילוי הנאות המלא.}"
-      },
-      "modal": {
-        "showDivider": true,
-        "showShadow": true,
-        "closeBtnFormat": "x"
-      },
-      "chat": {
-        "show": true,
-        "text": "המידע הניתן במסגרת שירות זה מיועד למטרות הכוונה כללית בלבד. המידע אינו מותאם אליך ספציפית ואינו מהווה תחליף לייעוץ השקעות אישי. הצ'אטבוט מופעל על ידי בינה מלאכותית יוצרת. בעוד שהוא נועד לסייע לך בשאלותיך, הוא פועל על בסיס אלגוריתמים נתונים מראש ומידע קיים ואינו בעל רגשות או תודעה אנושית. ייתכן שהוא לא תמיד יבין את ההקשר או הדקויות של שאלותיך, מה שיכול להוביל לאי-הבנות או לתגובות לא רלוונטיות. אנא הימנעו .ממסירת פרטים אישיים\n\n"
-      }
-    },
     "chat": {
       "props": {
         "showAnswerAnimationProgress": true,
@@ -298,6 +208,11 @@
             "fontSize": "body2Loose",
             "fontWeight": "medium"
           }
+        },
+        "controls": {
+          "button": {
+            "radius": "rounded"
+          }
         }
       },
       "followUps": {
@@ -309,15 +224,131 @@
         },
         "promptButtonTypography": {
           "weight": "medium"
+        },
+        "promptButton": {
+          "iconPosition": "start"
         }
       },
       "widgets": {
+        "links": {
+          "enable": true
+        },
+        "stockChart": {
+          "controls": {
+            "gap": "small"
+          }
+        },
         "cards": {
           "props": {
             "nav_btns": "responsive",
             "nav_dots": "responsive"
           }
+        },
+        "tradeControls": {
+          "enable": false,
+          "title": {
+            "show": true
+          }
         }
+      }
+    },
+    "prompt": {
+      "props": {
+        "multiline": true,
+        "radius": "round",
+        "padding": "none",
+        "minHeight": "54px",
+        "maxHeight": "96px",
+        "paddingOverride": "4px 16px 4px 4px",
+        "borderRadiusOverride": "100px",
+        "borderRadiusMultiline": "14px"
+      },
+      "text": {
+        "align": "center",
+        "placeholder": "זה המקום לשאול מה שרצית",
+        "fontSize": "body1Loose",
+        "weight": "medium"
+      },
+      "button": {
+        "variant": "solid",
+        "size": "lg",
+        "align": "end",
+        "show": true
+      }
+    },
+    "disclaimer": {
+      "footer": {
+        "show": true,
+        "align": "start",
+        "text": "המידע המוצג כאן נועד להכוונה כללית בלבד ואינו מהווה ייעוץ השקעות אישי. {link:צפייה בגילוי הנאות המלא.}"
+      },
+      "chat": {
+        "show": true,
+        "text": "המידע הניתן במסגרת שירות זה מיועד למטרות הכוונה כללית בלבד. המידע אינו מותאם אליך ספציפית ואינו מהווה תחליף לייעוץ השקעות אישי. הצ'אטבוט מופעל על ידי בינה מלאכותית יוצרת. בעוד שהוא נועד לסייע לך בשאלותיך, הוא פועל על בסיס אלגוריתמים נתונים מראש ומידע קיים ואינו בעל רגשות או תודעה אנושית. ייתכן שהוא לא תמיד יבין את ההקשר או הדקויות של שאלותיך, מה שיכול להוביל לאי-הבנות או לתגובות לא רלוונטיות. אנא הימנעו .ממסירת פרטים אישיים\n\n"
+      },
+      "modal": {
+        "showDivider": true,
+        "showShadow": true,
+        "closeBtnFormat": "x"
+      }
+    },
+    "header": {
+      "subtitle": {
+        "show": true,
+        "text": "בשוק שמשתנה כל יום, טוב לדעת שיש את מי לשאול. שיחה קצרה עם הצ'אט יכולה לתמוך בתהליך קבלת ההחלטות.",
+        "fontSize": "body2Loose",
+        "weight": "medium"
+      },
+      "title": {
+        "text": "MyAgent chat",
+        "weight": "bold",
+        "fontSize": "h3"
+      }
+    },
+    "layout": {
+      "props": {
+        "forceMobileView": true,
+        "layout": "pinnedTop"
+      }
+    },
+    "examples": {
+      "props": {
+        "titleAlign": "center",
+        "max_items": 3,
+        "": {
+          "titleAlign": "start",
+          "max_items": 4
+        },
+        "variant": "buttons",
+        "items": [
+          {
+            "text": "מה החדשות האחרונות על {companyName}?"
+          },
+          {
+            "text": "מה היו הביצועים של {companyName} בשנה האחרונה?"
+          },
+          {
+            "text": "איך המודל העסקי של {companyName} מבדיל אותה מחברות אחרות?"
+          }
+        ],
+        "title": "מה אפשר לשאול? הנה כמה כיוונים",
+        "titlePadding": "0 0 12px 0"
+      },
+      "title": {
+        "align": "center"
+      },
+      "typography": {
+        "weight": "medium"
+      },
+      "promptButtonTypography": {
+        "weight": "medium"
+      },
+      "titleTypography": {
+        "fontSize": "body2Loose",
+        "weight": "bold"
+      },
+      "promptButton": {
+        "iconPosition": "start"
       }
     },
     "teaser": {
@@ -399,13 +430,9 @@
         },
         "button": {
           "fluid": true,
-          "size": "lg"
+          "size": "lg",
+          "iconPosition": "start"
         }
-      }
-    },
-    "layout": {
-      "props": {
-        "layout": "pinnedTop"
       }
     }
   },
