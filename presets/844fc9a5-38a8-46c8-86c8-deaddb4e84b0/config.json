@@ -138,11 +138,15 @@
     "ratingBadge": {
       "variant": "solid",
       "borderRadius": "moderate",
-      "weight": "medium"
+      "weight": "medium",
+      "width": "fluid"
     },
     "table": {
       "elevation": false,
       "borderRadius": "10px"
+    },
+    "tableLink": {
+      "linkTypographyClassname": "text-text-primary! font-regular! underline!"
     }
   },
   "fund-holdings-ai-rating-breakdown": {
@@ -337,10 +341,10 @@
         "fontWeight": "medium"
       },
       "prompts": {
+        "maxItems": 3,
         "": {
           "maxItems": 4
         },
-        "maxItems": 3,
         "items": [
           {
             "text": "מה החדשות האחרונות על {companyName}?"
@@ -366,7 +370,7 @@
         "weight": "medium"
       },
       "poweredBy": {
-        "show": true,
+        "show": false,
         "topDivider": false,
         "showLogo": true,
         "contentAlignment": "center",
