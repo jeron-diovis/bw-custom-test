@@ -462,7 +462,19 @@
       "autoResize": true
     },
     "root": {
-      "hideAISummary": true
+      "hideAISummary": true,
+      "noSpaceBetweenFilters": true
+    },
+    "filters": {
+      "language": {
+        "hide": true
+      },
+      "date": {
+        "dropdownButtonBorderRadius": "moderate"
+      },
+      "sort": {
+        "dropdownButtonBorderRadius": "moderate"
+      }
     }
   }
 }
