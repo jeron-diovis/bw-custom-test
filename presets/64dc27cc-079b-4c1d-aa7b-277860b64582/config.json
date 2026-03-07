@@ -1,0 +1,177 @@
+{
+  "name": "plus500-web",
+  "id": "64dc27cc-079b-4c1d-aa7b-277860b64582",
+  "bridget": {
+    "chat": {
+      "props": {
+        "showAnswerAnimationProgress": false,
+        "scrollDownButton": {
+          "showProgress": false,
+          "radius": "moderate",
+          "typography": {
+            "weight": "regular"
+          },
+          "theme": "chat",
+          "size": "lg"
+        }
+      },
+      "msg": {
+        "user": {
+          "props": {
+            "avatarSize": "sm",
+            "avatarRadius": "rounded",
+            "tipRadius": "0",
+            "justify": "end",
+            "justifyMaxWidth": "100%",
+            "padding": "12px 16px 12px 16px",
+            "borderRadius": "1rem"
+          }
+        },
+        "bot": {
+          "props": {
+            "showAvatar": true,
+            "avatarSize": "sm",
+            "avatarRadius": "none",
+            "tipRadius": "4px",
+            "justify": "stretch",
+            "justifyMaxWidth": "70%",
+            "showFollowups": true,
+            "showControls": true,
+            "padding": "12px 16px 0 0",
+            "showUsername": true
+          }
+        }
+      },
+      "followUps": {
+        "props": {
+          "showTitle": true,
+          "items": 3
+        },
+        "promptButton": {
+          "iconPosition": "end"
+        }
+      },
+      "widgets": {
+        "links": {
+          "enable": true
+        },
+        "stockChart": {
+          "controls": {
+            "gap": "small"
+          }
+        },
+        "cards": {
+          "props": {
+            "nav_btns": "responsive",
+            "nav_dots": "responsive"
+          }
+        },
+        "tradeControls": {
+          "enable": false,
+          "reversed": false,
+          "title": {
+            "show": true
+          }
+        }
+      },
+      "buttonScrollDown": {
+        "text": "Jump to Bottom",
+        "radius": "moderate"
+      }
+    },
+    "prompt": {
+      "props": {
+        "multiline": true,
+        "radius": "large",
+        "padding": "medium",
+        "minHeight": "80px",
+        "maxHeight": "184px",
+        "paddingOverride": "16px 16px 16px 24px"
+      },
+      "text": {
+        "align": "start"
+      },
+      "button": {
+        "variant": "solid",
+        "size": "md",
+        "align": "end",
+        "show": true
+      }
+    },
+    "disclaimer": {
+      "footer": {
+        "show": true,
+        "align": "center"
+      },
+      "chat": {
+        "show": true
+      },
+      "modal": {
+        "showDivider": true,
+        "showShadow": true,
+        "closeBtnFormat": "x"
+      }
+    },
+    "header": {
+      "subtitle": {
+        "show": false
+      },
+      "title": {
+        "fontSize": "h4",
+        "weight": "medium"
+      }
+    },
+    "layout": {
+      "props": {
+        "forceMobileView": false
+      }
+    },
+    "examples": {
+      "props": {
+        "titleAlign": "start",
+        "max_items": 3,
+        "direction": "x",
+        "buttonsDirection": "x",
+        "variant": "buttons",
+        "items": [
+          {
+            "text": ""
+          },
+          {
+            "text": ""
+          },
+          {
+            "text": ""
+          }
+        ],
+        "layout": "horizontal"
+      },
+      "promptButton": {
+        "variant": "chat",
+        "iconPosition": "end",
+        "fluid": true,
+        "borderRadius": "moderate"
+      }
+    }
+  },
+  "translations": {
+    "en-US": {
+      "bridget_title": "Get your questions about\\nthe market answered with +AI.",
+      "bridget_username_bot": "+AI",
+      "bridget_prompt_placeholder": "Ask +AI your trading questions.",
+      "bridget_username_user": "You",
+      "bridget_scroll_down_btn": "Jump to Bottom",
+      "bridget_example_question_1": "What is the current spread of Gold?",
+      "bridget_example_question_2": "How do I deposit funds?",
+      "bridget_example_question_3": "When do I use Stop Loss?"
+    },
+    "he-IL": {
+      "bridget_username_bot": "+AI",
+      "bridget_scroll_down_btn": "קפוץ לתחתית",
+      "bridget_title": "קבל תשובות לשאלותיך על השוק עם +AI.",
+      "bridget_example_question_3": "מתי אני משתמש ב-Stop Loss?",
+      "bridget_example_question_2": "איך אני מפקיד כספים?",
+      "bridget_example_question_1": "מה הפריסה הנוכחית של זהב?"
+    }
+  }
+}
