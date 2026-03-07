@@ -12,8 +12,8 @@
         "show": false
       },
       "title": {
-        "fontSize": "h4",
-        "weight": "medium"
+        "fontSize": "h3",
+        "weight": "regular"
       }
     },
     "examples": {
@@ -60,7 +60,7 @@
       },
       "button": {
         "variant": "solid",
-        "size": "md",
+        "size": "sm",
         "align": "end",
         "show": true
       }
