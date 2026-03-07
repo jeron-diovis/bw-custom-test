@@ -118,6 +118,9 @@
     }
   },
   "fund-main-characteristics": {
+    "esgRow": {
+      "showEsgRow": true
+    },
     "parameters": {
       "shared": {
         "layout": "vertical",
@@ -213,17 +216,20 @@
     },
     "prompt": {
       "props": {
-        "multiline": false,
+        "multiline": true,
         "radius": "round",
         "padding": "none",
         "minHeight": "54px",
         "maxHeight": "96px",
-        "paddingOverride": "4px 16px 4px 4px"
+        "paddingOverride": "4px 16px 4px 4px",
+        "borderRadiusOverride": "100px",
+        "borderRadiusMultiline": "14px"
       },
       "text": {
         "align": "center",
         "placeholder": "זה המקום לשאול מה שרצית",
-        "fontSize": "body1Loose"
+        "fontSize": "body1Loose",
+        "weight": "medium"
       },
       "button": {
         "variant": "solid",
@@ -239,10 +245,13 @@
         "text": "המידע המוצג כאן נועד להכוונה כללית בלבד ואינו מהווה ייעוץ השקעות אישי. {link:צפייה בגילוי הנאות המלא.}"
       },
       "modal": {
-        "showDivider": true
+        "showDivider": true,
+        "showShadow": true,
+        "closeBtnFormat": "x"
       },
       "chat": {
-        "show": true
+        "show": true,
+        "text": "המידע הניתן במסגרת שירות זה מיועד למטרות הכוונה כללית בלבד. המידע אינו מותאם אליך ספציפית ואינו מהווה תחליף לייעוץ השקעות אישי. הצ'אטבוט מופעל על ידי בינה מלאכותית יוצרת. בעוד שהוא נועד לסייע לך בשאלותיך, הוא פועל על בסיס אלגוריתמים נתונים מראש ומידע קיים ואינו בעל רגשות או תודעה אנושית. ייתכן שהוא לא תמיד יבין את ההקשר או הדקויות של שאלותיך, מה שיכול להוביל לאי-הבנות או לתגובות לא רלוונטיות. אנא הימנעו .ממסירת פרטים אישיים\n\n"
       }
     },
     "chat": {
@@ -285,8 +294,8 @@
       "followUps": {
         "props": {
           "showTitle": true,
-          "titleAlign": "center",
           "items": 3,
+          "titleAlign": "center",
           "title": "מה אפשר לשאול? הנה כמה כיוונים"
         },
         "promptButtonTypography": {
@@ -323,7 +332,9 @@
         "showClearButton": false,
         "title": "התחילו שיחה עם צ׳אט ה-AI שלנו כדי לגלות חדשות, מגמות ותחזיות על בסיס ביצועים ודוחות",
         "placeholderStock": "מה תרצו לדעת על {companyName}?",
-        "wrapperGap": "24px"
+        "wrapperGap": "24px",
+        "fontSize": "body1Tight",
+        "fontWeight": "medium"
       },
       "prompts": {
         "": {
@@ -387,6 +398,14 @@
       "props": {
         "layout": "pinnedTop"
       }
+    }
+  },
+  "stock-news": {
+    "filter": {
+      "hideLanguageSelector": true
+    },
+    "error": {
+      "filterBody": " נסה לשנות את התאריך כדי לראות תוצאות נוספות."
     }
   }
 }
