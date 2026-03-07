@@ -158,11 +158,17 @@
   "fund-holdings-ai-rating-breakdown": {
     "ratingBadge": {
       "borderRadius": "moderate",
-      "weight": "regular"
+      "weight": "regular",
+      "width": "fluid"
     },
     "table": {
       "elevation": false,
       "borderRadius": "10px"
+    },
+    "link": {
+      "textDecoration": "underline",
+      "fontWeight": "400",
+      "color": "var(--text-text-primary)"
     }
   },
   "stock-technical-analysis": {
