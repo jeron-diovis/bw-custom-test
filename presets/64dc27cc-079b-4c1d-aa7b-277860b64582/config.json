@@ -2,6 +2,84 @@
   "name": "plus500-web",
   "id": "64dc27cc-079b-4c1d-aa7b-277860b64582",
   "bridget": {
+    "layout": {
+      "props": {
+        "forceMobileView": false
+      }
+    },
+    "header": {
+      "subtitle": {
+        "show": false
+      },
+      "title": {
+        "fontSize": "h4",
+        "weight": "medium"
+      }
+    },
+    "examples": {
+      "props": {
+        "titleAlign": "start",
+        "max_items": 3,
+        "direction": "x",
+        "buttonsDirection": "x",
+        "variant": "buttons",
+        "items": [
+          {
+            "text": "",
+            "query": ""
+          },
+          {
+            "text": "",
+            "query": ""
+          },
+          {
+            "text": "",
+            "query": ""
+          }
+        ],
+        "layout": "horizontal"
+      },
+      "promptButton": {
+        "variant": "chat",
+        "iconPosition": "end",
+        "fluid": true,
+        "borderRadius": "moderate"
+      }
+    },
+    "prompt": {
+      "props": {
+        "multiline": true,
+        "radius": "large",
+        "padding": "medium",
+        "minHeight": "80px",
+        "maxHeight": "184px",
+        "paddingOverride": "16px 16px 16px 24px"
+      },
+      "text": {
+        "align": "start"
+      },
+      "button": {
+        "variant": "solid",
+        "size": "md",
+        "align": "end",
+        "show": true
+      }
+    },
+    "disclaimer": {
+      "footer": {
+        "show": true,
+        "align": "center"
+      },
+      "modal": {
+        "showDivider": true,
+        "showShadow": true,
+        "closeBtnFormat": "x"
+      },
+      "chat": {
+        "show": true,
+        "fontSize": "body3Loose"
+      }
+    },
     "chat": {
       "props": {
         "showAnswerAnimationProgress": false,
@@ -80,81 +158,6 @@
         "text": "Jump to Bottom",
         "radius": "moderate"
       }
-    },
-    "prompt": {
-      "props": {
-        "multiline": true,
-        "radius": "large",
-        "padding": "medium",
-        "minHeight": "80px",
-        "maxHeight": "184px",
-        "paddingOverride": "16px 16px 16px 24px"
-      },
-      "text": {
-        "align": "start"
-      },
-      "button": {
-        "variant": "solid",
-        "size": "md",
-        "align": "end",
-        "show": true
-      }
-    },
-    "disclaimer": {
-      "footer": {
-        "show": true,
-        "align": "center"
-      },
-      "chat": {
-        "show": true,
-        "fontSize": "body3Loose"
-      },
-      "modal": {
-        "showDivider": true,
-        "showShadow": true,
-        "closeBtnFormat": "x"
-      }
-    },
-    "header": {
-      "subtitle": {
-        "show": false
-      },
-      "title": {
-        "fontSize": "h4",
-        "weight": "medium"
-      }
-    },
-    "layout": {
-      "props": {
-        "forceMobileView": false
-      }
-    },
-    "examples": {
-      "props": {
-        "titleAlign": "start",
-        "max_items": 3,
-        "direction": "x",
-        "buttonsDirection": "x",
-        "variant": "buttons",
-        "items": [
-          {
-            "text": ""
-          },
-          {
-            "text": ""
-          },
-          {
-            "text": ""
-          }
-        ],
-        "layout": "horizontal"
-      },
-      "promptButton": {
-        "variant": "chat",
-        "iconPosition": "end",
-        "fluid": true,
-        "borderRadius": "moderate"
-      }
     }
   },
   "translations": {
@@ -164,17 +167,23 @@
       "bridget_prompt_placeholder": "Ask +AI your trading questions.",
       "bridget_username_user": "You",
       "bridget_scroll_down_btn": "Jump to Bottom",
-      "bridget_example_question_1": "What is the current spread of Gold?",
-      "bridget_example_question_2": "How do I deposit funds?",
-      "bridget_example_question_3": "When do I use Stop Loss?"
+      "bridget_example_question_1": "Market state",
+      "bridget_example_question_2": "Gold key levels",
+      "bridget_example_question_3": "NASDAQ 100 sentiment",
+      "bridget_example_question_1_query": "What moved the market today?",
+      "bridget_example_question_2_query": "What are the key levels for Gold?",
+      "bridget_example_question_3_query": "What is the NASDAQ 100 sentiment?"
     },
     "he-IL": {
       "bridget_username_bot": "+AI",
       "bridget_scroll_down_btn": "קפוץ לתחתית",
       "bridget_title": "קבל תשובות לשאלותיך על השוק עם +AI.",
-      "bridget_example_question_3": "מתי אני משתמש ב-Stop Loss?",
-      "bridget_example_question_2": "איך אני מפקיד כספים?",
-      "bridget_example_question_1": "מה הפריסה הנוכחית של זהב?"
+      "bridget_example_question_3": "סנטימנט נאסד\"ק 100",
+      "bridget_example_question_2": "רמות מפתח בזהב",
+      "bridget_example_question_1": "מצב השוק",
+      "bridget_example_question_1_query": "מה הניע את השוק היום?",
+      "bridget_example_question_2_query": "מהן הרמות המרכזיות בזהב?",
+      "bridget_example_question_3_query": "מהו סנטימנט נאסד\"ק 100?"
     }
   }
 }
