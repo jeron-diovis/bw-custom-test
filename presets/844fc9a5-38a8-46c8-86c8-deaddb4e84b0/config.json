@@ -447,6 +447,12 @@
     },
     "articleItemTitle": {
       "fontWeight": "medium"
+    },
+    "articleContent": {
+      "autoResize": true
+    },
+    "root": {
+      "hideAISummary": true
     }
   }
 }
