@@ -174,6 +174,85 @@
     }
   },
   "bridget": {
+    "chat": {
+      "widgets": {
+        "tradeControls": {
+          "enable": false,
+          "title": {
+            "show": true
+          }
+        },
+        "links": {
+          "enable": true
+        },
+        "stockChart": {
+          "controls": {
+            "gap": "small"
+          }
+        },
+        "cards": {
+          "props": {
+            "nav_btns": "responsive",
+            "nav_dots": "responsive"
+          }
+        }
+      },
+      "props": {
+        "showAnswerAnimationProgress": true,
+        "footerBoxShadow": false,
+        "messagesPaddingBottom": "6px"
+      },
+      "msg": {
+        "user": {
+          "props": {
+            "avatarSize": "sm",
+            "username": "You",
+            "justify": "end",
+            "justifyMaxWidth": "100%",
+            "padding": "1rem",
+            "borderRadius": "12.5px",
+            "showAvatar": true,
+            "tip": "none",
+            "fontSize": "body2Loose",
+            "fontWeight": "medium"
+          }
+        },
+        "bot": {
+          "props": {
+            "showAvatar": false,
+            "avatarSize": "sm",
+            "username": "Bridget",
+            "justify": "stretch",
+            "justifyMaxWidth": "70%",
+            "showFollowups": true,
+            "showControls": true,
+            "padding": "15px 10px",
+            "borderRadius": "16px",
+            "fontSize": "body2Loose",
+            "fontWeight": "medium"
+          }
+        },
+        "controls": {
+          "button": {
+            "radius": "rounded"
+          }
+        }
+      },
+      "followUps": {
+        "props": {
+          "showTitle": true,
+          "items": 3,
+          "titleAlign": "center",
+          "title": "מה אפשר לשאול? הנה כמה כיוונים"
+        },
+        "promptButtonTypography": {
+          "weight": "medium"
+        },
+        "promptButton": {
+          "iconPosition": "start"
+        }
+      }
+    },
     "layout": {
       "props": {
         "forceMobileView": true,
@@ -255,6 +334,16 @@
         "size": "lg",
         "align": "end",
         "show": true
+      },
+      "validation": {
+        "rules": [
+          {
+            "pattern": "\\d{8,}"
+          },
+          {
+            "pattern": "חשבון|ת.ז|כתובת|מצב כלכלי|מצב חשבון|שם|לקוח’|תנועות בחשבון"
+          }
+        ]
       }
     },
     "disclaimer": {
@@ -271,85 +360,6 @@
       "chat": {
         "show": true,
         "text": "המידע הניתן במסגרת שירות זה מיועד למטרות הכוונה כללית בלבד. המידע אינו מותאם אליך ספציפית ואינו מהווה תחליף לייעוץ השקעות אישי. הצ'אטבוט מופעל על ידי בינה מלאכותית יוצרת. בעוד שהוא נועד לסייע לך בשאלותיך, הוא פועל על בסיס אלגוריתמים נתונים מראש ומידע קיים ואינו בעל רגשות או תודעה אנושית. ייתכן שהוא לא תמיד יבין את ההקשר או הדקויות של שאלותיך, מה שיכול להוביל לאי-הבנות או לתגובות לא רלוונטיות. אנא הימנעו .ממסירת פרטים אישיים\n\n"
-      }
-    },
-    "chat": {
-      "props": {
-        "showAnswerAnimationProgress": true,
-        "footerBoxShadow": false,
-        "messagesPaddingBottom": "6px"
-      },
-      "msg": {
-        "user": {
-          "props": {
-            "avatarSize": "sm",
-            "username": "You",
-            "justify": "end",
-            "justifyMaxWidth": "100%",
-            "padding": "1rem",
-            "borderRadius": "12.5px",
-            "showAvatar": true,
-            "tip": "none",
-            "fontSize": "body2Loose",
-            "fontWeight": "medium"
-          }
-        },
-        "bot": {
-          "props": {
-            "showAvatar": false,
-            "avatarSize": "sm",
-            "username": "Bridget",
-            "justify": "stretch",
-            "justifyMaxWidth": "70%",
-            "showFollowups": true,
-            "showControls": true,
-            "padding": "15px 10px",
-            "borderRadius": "16px",
-            "fontSize": "body2Loose",
-            "fontWeight": "medium"
-          }
-        },
-        "controls": {
-          "button": {
-            "radius": "rounded"
-          }
-        }
-      },
-      "followUps": {
-        "props": {
-          "showTitle": true,
-          "items": 3,
-          "titleAlign": "center",
-          "title": "מה אפשר לשאול? הנה כמה כיוונים"
-        },
-        "promptButtonTypography": {
-          "weight": "medium"
-        },
-        "promptButton": {
-          "iconPosition": "start"
-        }
-      },
-      "widgets": {
-        "links": {
-          "enable": true
-        },
-        "stockChart": {
-          "controls": {
-            "gap": "small"
-          }
-        },
-        "cards": {
-          "props": {
-            "nav_btns": "responsive",
-            "nav_dots": "responsive"
-          }
-        },
-        "tradeControls": {
-          "enable": false,
-          "title": {
-            "show": true
-          }
-        }
       }
     },
     "teaser": {
