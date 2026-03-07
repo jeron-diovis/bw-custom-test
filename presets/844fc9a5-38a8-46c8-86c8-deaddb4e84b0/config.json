@@ -1,0 +1,392 @@
+{
+  "name": "Bank Hapoalim V2",
+  "id": "844fc9a5-38a8-46c8-86c8-deaddb4e84b0",
+  "stock-fundamental-rating": {
+    "ratingBadge": {
+      "weight": "medium"
+    },
+    "badge": {
+      "weight": "light"
+    },
+    "trendIndicator": {
+      "weight": "medium",
+      "fontSize": "h5"
+    },
+    "rowItemContentCustomization": {
+      "fontSize": "h5",
+      "fontWeight": "medium"
+    },
+    "ratingRow": {
+      "scoreFontSize": "h5",
+      "scoreFontWeight": "medium",
+      "scoreBaseFontSize": "body2Loose"
+    }
+  },
+  "stock-earnings-call": {
+    "titleArea": {
+      "layout": "vertical"
+    },
+    "tabs": {
+      "variant": "underline",
+      "showDivider": true,
+      "theme": "secondary"
+    },
+    "accordion": {
+      "variant": "outlined"
+    }
+  },
+  "stock-textual-analysis": {
+    "collapsibleTextButton": {
+      "variant": "inline",
+      "theme": "chat"
+    },
+    "collapsibleText": {
+      "buttonPosition": "end"
+    }
+  },
+  "stock-company-profile": {
+    "parameters": {
+      "shared": {
+        "layout": "vertical",
+        "labelFontSize": "body1Loose",
+        "labelFontWeight": "light"
+      }
+    },
+    "contentParameters": {
+      "shared": {
+        "fontSize": "h5",
+        "weight": "medium"
+      }
+    }
+  },
+  "fund-overview": {
+    "collapsibleTextButton": {
+      "variant": "inline",
+      "theme": "chat"
+    },
+    "collapsibleText": {
+      "buttonPosition": "end"
+    }
+  },
+  "fund-description": {
+    "collapsibleTextButton": {
+      "variant": "inline",
+      "theme": "chat"
+    },
+    "collapsibleText": {
+      "buttonPosition": "end"
+    },
+    "badges": {
+      "borderRadius": "moderate",
+      "weight": "medium"
+    }
+  },
+  "fund-performance": {
+    "collapsibleTextButton": {
+      "variant": "inline",
+      "theme": "chat"
+    },
+    "collapsibleText": {
+      "buttonPosition": "end"
+    }
+  },
+  "fund-holdings-breakdown": {
+    "tabs": {
+      "variant": "underline",
+      "theme": "secondary",
+      "showDivider": true
+    },
+    "collapsibleTextButton": {
+      "variant": "inline",
+      "theme": "chat"
+    },
+    "collapsibleText": {
+      "buttonPosition": "end"
+    },
+    "ratingBadge": {
+      "weight": "regular"
+    }
+  },
+  "fund-selected-fund-vs-peers": {
+    "titleArea": {
+      "layout": "horizontal"
+    },
+    "tabs": {
+      "variant": "underline",
+      "theme": "secondary",
+      "showDivider": true
+    }
+  },
+  "fund-main-characteristics": {
+    "parameters": {
+      "shared": {
+        "layout": "vertical",
+        "labelFontSize": "body1Loose"
+      }
+    },
+    "contentParameters": {
+      "shared": {
+        "weight": "medium",
+        "fontSize": "h5"
+      }
+    }
+  },
+  "stock-peer-comparison": {
+    "ratingBadge": {
+      "variant": "solid",
+      "borderRadius": "moderate",
+      "weight": "medium"
+    },
+    "table": {
+      "elevation": false,
+      "borderRadius": "10px"
+    }
+  },
+  "fund-holdings-ai-rating-breakdown": {
+    "ratingBadge": {
+      "borderRadius": "moderate",
+      "weight": "regular"
+    },
+    "table": {
+      "elevation": false,
+      "borderRadius": "10px"
+    }
+  },
+  "stock-technical-analysis": {
+    "parameterItems": {
+      "shared": {
+        "layout": "horizontal",
+        "verticalAlignment": "center"
+      }
+    }
+  },
+  "bridget": {
+    "header": {
+      "subtitle": {
+        "show": true,
+        "text": "בשוק שמשתנה כל יום, טוב לדעת שיש עם מי להתייעץ. שיחה קצרה עם הצ׳אט הופכת כל השקעה לחכמה יותר",
+        "fontSize": "body2Loose",
+        "weight": "medium"
+      },
+      "title": {
+        "text": "MyAgent chat",
+        "weight": "bold",
+        "fontSize": "h3"
+      }
+    },
+    "examples": {
+      "props": {
+        "": {
+          "titleAlign": "start",
+          "max_items": 4
+        },
+        "titleAlign": "center",
+        "max_items": 3,
+        "variant": "buttons",
+        "items": [
+          {
+            "text": "מה החדשות האחרונות על {companyName}?"
+          },
+          {
+            "text": "מה היו הביצועים של {companyName} בשנה האחרונה?"
+          },
+          {
+            "text": "איך המודל העסקי של {companyName} מבדיל אותה מחברות אחרות?"
+          }
+        ],
+        "title": "מה אפשר לשאול? הנה כמה כיוונים",
+        "titlePadding": "0 0 12px 0"
+      },
+      "title": {
+        "align": "center"
+      },
+      "typography": {
+        "weight": "medium"
+      },
+      "promptButtonTypography": {
+        "weight": "medium"
+      },
+      "titleTypography": {
+        "fontSize": "body2Loose",
+        "weight": "bold"
+      }
+    },
+    "prompt": {
+      "props": {
+        "multiline": false,
+        "radius": "round",
+        "padding": "none",
+        "minHeight": "54px",
+        "maxHeight": "96px",
+        "paddingOverride": "4px 16px 4px 4px"
+      },
+      "text": {
+        "align": "center",
+        "placeholder": "זה המקום לשאול מה שרצית",
+        "fontSize": "body1Loose"
+      },
+      "button": {
+        "variant": "solid",
+        "size": "lg",
+        "align": "end",
+        "show": true
+      }
+    },
+    "disclaimer": {
+      "footer": {
+        "show": true,
+        "align": "start",
+        "text": "המידע המוצג כאן נועד להכוונה כללית בלבד ואינו מהווה ייעוץ השקעות אישי. {link:צפייה בגילוי הנאות המלא.}"
+      },
+      "modal": {
+        "showDivider": true
+      },
+      "chat": {
+        "show": true
+      }
+    },
+    "chat": {
+      "props": {
+        "showAnswerAnimationProgress": true,
+        "footerBoxShadow": false,
+        "messagesPaddingBottom": "6px"
+      },
+      "msg": {
+        "user": {
+          "props": {
+            "avatarSize": "sm",
+            "username": "You",
+            "justify": "end",
+            "justifyMaxWidth": "100%",
+            "padding": "1rem",
+            "borderRadius": "12.5px",
+            "showAvatar": true,
+            "tip": "none",
+            "fontSize": "body2Loose",
+            "fontWeight": "medium"
+          }
+        },
+        "bot": {
+          "props": {
+            "showAvatar": false,
+            "avatarSize": "sm",
+            "username": "Bridget",
+            "justify": "stretch",
+            "justifyMaxWidth": "70%",
+            "showFollowups": true,
+            "showControls": true,
+            "padding": "15px 10px",
+            "borderRadius": "16px",
+            "fontSize": "body2Loose",
+            "fontWeight": "medium"
+          }
+        }
+      },
+      "followUps": {
+        "props": {
+          "showTitle": true,
+          "titleAlign": "center",
+          "items": 3,
+          "title": "מה אפשר לשאול? הנה כמה כיוונים"
+        },
+        "promptButtonTypography": {
+          "weight": "medium"
+        }
+      },
+      "widgets": {
+        "cards": {
+          "props": {
+            "nav_btns": "responsive",
+            "nav_dots": "responsive"
+          }
+        }
+      }
+    },
+    "teaser": {
+      "header": {
+        "variant": "icon",
+        "titleHeight": "auto",
+        "titleAlignment": "center",
+        "subtitleAlignment": "start",
+        "title": "",
+        "hideSubtext": true,
+        "subtitle": "",
+        "titleStock": "",
+        "customMargin": "-60px 0 0 0"
+      },
+      "input": {
+        "titleAlignment": "center",
+        "customInnerPadding": "4px 16px 4px 4px",
+        "size": "custom",
+        "titleStock": "התחילו שיחה עם צ׳אט ה-AI שלנו כדי לגלות חדשות, מגמות ותחזיות על בסיס ביצועים ודוחות",
+        "placeholder": "מה תרצו לדעת על {companyName}?",
+        "showClearButton": false,
+        "title": "התחילו שיחה עם צ׳אט ה-AI שלנו כדי לגלות חדשות, מגמות ותחזיות על בסיס ביצועים ודוחות",
+        "placeholderStock": "מה תרצו לדעת על {companyName}?",
+        "wrapperGap": "24px"
+      },
+      "prompts": {
+        "": {
+          "maxItems": 4
+        },
+        "maxItems": 3,
+        "items": [
+          {
+            "text": "מה החדשות האחרונות על {companyName}?"
+          },
+          {
+            "text": "מה דעתך על מגמת המחיר הנוכחית של {companyName}?"
+          },
+          {
+            "text": "מה התחזית שלך לשנה הקרובה?"
+          }
+        ]
+      },
+      "card": {
+        "lightBgImage": "",
+        "darkBgImage": "",
+        "customMargin": "35px 0 0 0"
+      },
+      "promptButtonGroupTitle": {
+        "show": true,
+        "title": "הצעות לשאלות נפוצות",
+        "titleAlignment": "center",
+        "fontSize": "body2Tight",
+        "weight": "medium"
+      },
+      "poweredBy": {
+        "show": true,
+        "topDivider": false,
+        "showLogo": true,
+        "contentAlignment": "center",
+        "typographyFontSize": "body3Tight",
+        "typographyFontWeight": "medium",
+        "typographyFontFamily": "roboto",
+        "typographyFontCase": "normalCase",
+        "text": "מידע מבוסס על מערכת"
+      },
+      "submitButton": {
+        "hidden": true,
+        "iconOnly": true,
+        "icon": "custom"
+      },
+      "footer": {
+        "isVisible": false
+      },
+      "promptButton": {
+        "typography": {
+          "weight": "medium"
+        },
+        "button": {
+          "fluid": true,
+          "size": "lg"
+        }
+      }
+    },
+    "layout": {
+      "props": {
+        "layout": "pinnedTop"
+      }
+    }
+  }
+}

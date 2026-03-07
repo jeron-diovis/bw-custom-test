@@ -1,0 +1,77 @@
+@font-face {
+  font-family: PoalimCustom;
+  src: url("https://assets.dev-bridgewise.com/customization/844fc9a5-38a8-46c8-86c8-deaddb4e84b0/assets/font/PoalimCustom/light-poalim.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: PoalimCustom;
+  src: url("https://assets.dev-bridgewise.com/customization/844fc9a5-38a8-46c8-86c8-deaddb4e84b0/assets/font/PoalimCustom/light-poalim.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: PoalimCustom;
+  src: url("https://assets.dev-bridgewise.com/customization/844fc9a5-38a8-46c8-86c8-deaddb4e84b0/assets/font/PoalimCustom/medium-poalim.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: PoalimCustom;
+  src: url("https://assets.dev-bridgewise.com/customization/844fc9a5-38a8-46c8-86c8-deaddb4e84b0/assets/font/PoalimCustom/bold-poalim.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+.font_roboto {
+  font-family: PoalimCustom !important;
+}
+.font_roboto_mono {
+  font-family: PoalimCustom !important;
+}
+
+@theme inline {
+  /*Typography */
+  --typography-h1: 2rem; /* 32px font size*/
+  --typography-h1--line-height: 2.5rem; /* 40px line height*/
+
+  --typography-h2: 1.75rem; /* 28px font size*/
+  --typography-h2--line-height: 2.25rem; /* 36px line height*/
+
+  --typography-h3: 1.5rem; /* 24px font size*/
+  --typography-h3--line-height: 2rem; /* 32px line height*/
+
+  --typography-h4: 1.75rem;
+  --typography-h4--line-height: 1.75rem;
+
+  --typography-h5: 1.5rem;
+  --typography-h5--line-height: 1.25rem;
+
+  --typography-body-loose: 1.25rem;
+  --typography-body-loose--line-height: 1.25rem;
+
+  --typography-body-tight: 1.25rem;
+  --typography-body-tight--line-height: 1.25rem;
+
+  --typography-body-2-loose: 1.125rem;
+  --typography-body-2-loose--line-height: 1.125rem;
+
+  --typography-body-2-tight: 1.125rem;
+  --typography-body-2-tight--line-height: 1.125rem;
+
+  --typography-body-3-loose: 1rem;
+  --typography-body-3-loose--line-height: 1rem;
+
+  --typography-body-3-tight: 1rem;
+  --typography-body-3-tight--line-height: 1rem;
+
+  /* Font Families */
+  --font-family-roboto: "PoalimCustom", system-ui, sans-serif;
+  --font-family-roboto-mono: "PoalimCustom", "Monaco", monospace;
+}
