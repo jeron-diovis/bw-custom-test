@@ -1,0 +1,88 @@
+{
+  "bridget": {
+    "examples": {
+      "props": {
+        "max_items": 4,
+        "items": [
+          "",
+          "",
+          ""
+        ],
+        "variant": "chips",
+        "title": ""
+      }
+    },
+    "prompt": {
+      "props": {
+        "multiline": true,
+        "radius": "large",
+        "padding": "medium",
+        "minHeight": "80px",
+        "maxHeight": "184px"
+      },
+      "text": {
+        "align": "start",
+        "placeholder": "Ask anything about {companyName}..."
+      },
+      "button": {
+        "variant": "solid",
+        "size": "md",
+        "align": "end",
+        "show": true
+      }
+    },
+    "disclaimer": {
+      "footer": {
+        "show": true
+      }
+    },
+    "examples.props": {
+      "max_items": 4
+    },
+    "OMG": {
+      "str": "d"
+    },
+    "nest": {
+      "props": {
+        "items": [
+          null,
+          "Custom"
+        ],
+        "variant": "buttons"
+      }
+    },
+    "nest-2": {
+      "props": {
+        "items": [
+          null,
+          "aaaa"
+        ]
+      }
+    },
+    "header": {
+      "props": {
+        "title": "צ׳אט Bridgewise AI",
+        "subtitle": "טייסת המשנה המהימנה שלך לניתוח הדו”חות הכספיים של עשרות אלפי חברות מרחבי העולם",
+        "position_mobile": "bottom"
+      },
+      "title": {
+        "text": "What would you like to know about {companyName}?"
+      },
+      "subtitle": {
+        "text": "Get instant {companyTicker} insights and analysis from Bridget AI chat"
+      }
+    },
+    "teaser": {
+      "header": {
+        "title": ""
+      }
+    }
+  },
+  "name": "Bobukh test",
+  "id": "6a55d75f-d9e4-4e35-a24d-4349459130de",
+  "xbridget": {
+    "test": {
+      "str": "dfg"
+    }
+  }
+}
