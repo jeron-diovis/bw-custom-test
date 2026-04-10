@@ -1,1 +1,53 @@
-{"name":"Client 6a55d75f-d9e4-4e35-a24d-4349459130de","id":"6a55d75f-d9e4-4e35-a24d-4349459130de","bridget":{"layout":{"props":{"forceMobileView":true}},"header":{"subtitle":{"show":true,"weight":"bold"}},"examples":{"props":{"titleAlign":"start","max_items":4}},"prompt":{"props":{"multiline":true,"radius":"large","padding":"medium","minHeight":"80px","maxHeight":"184px"},"text":{"align":"start"},"button":{"variant":"solid","size":"md","align":"end","show":true}},"disclaimer":{"footer":{"show":true,"align":"center"},"modal":{"showDivider":true,"showShadow":true,"closeBtnFormat":"x"}}}}
+{
+  "name": "Client 6a55d75f-d9e4-4e35-a24d-4349459130de",
+  "id": "6a55d75f-d9e4-4e35-a24d-4349459130de",
+  "bridget": {
+    "layout": {
+      "props": {
+        "forceMobileView": true
+      }
+    },
+    "header": {
+      "subtitle": {
+        "show": true,
+        "weight": "bold"
+      },
+      "title": {}
+    },
+    "examples": {
+      "props": {
+        "titleAlign": "start",
+        "max_items": 4
+      }
+    },
+    "prompt": {
+      "props": {
+        "multiline": true,
+        "radius": "large",
+        "padding": "medium",
+        "minHeight": "80px",
+        "maxHeight": "184px"
+      },
+      "text": {
+        "align": "start"
+      },
+      "button": {
+        "variant": "solid",
+        "size": "md",
+        "align": "end",
+        "show": true
+      }
+    },
+    "disclaimer": {
+      "footer": {
+        "show": true,
+        "align": "center"
+      },
+      "modal": {
+        "showDivider": true,
+        "showShadow": true,
+        "closeBtnFormat": "x"
+      }
+    }
+  }
+}
