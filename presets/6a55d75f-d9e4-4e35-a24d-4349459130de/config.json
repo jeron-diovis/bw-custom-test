@@ -4,7 +4,7 @@
   "bridget": {
     "layout": {
       "props": {
-        "forceMobileView": true
+        "forceMobileView": false
       }
     },
     "header": {
