@@ -2,11 +2,6 @@
   "name": "Client 6a55d75f-d9e4-4e35-a24d-4349459130de",
   "id": "6a55d75f-d9e4-4e35-a24d-4349459130de",
   "bridget": {
-    "layout": {
-      "props": {
-        "forceMobileView": false
-      }
-    },
     "header": {
       "subtitle": {
         "weight": "bold"
@@ -23,7 +18,7 @@
     },
     "root": {
       "layout": {
-        "fullscreen": true
+        "fullscreen": false
       }
     }
   }
