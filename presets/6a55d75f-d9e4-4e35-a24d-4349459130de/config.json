@@ -18,7 +18,7 @@
     },
     "root": {
       "layout": {
-        "fullscreen": false
+        "fullscreen": true
       }
     }
   }
