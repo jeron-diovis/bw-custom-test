@@ -1,6 +1,6 @@
 @font-face {
               font-family: Inter;
-              src: url("https://assets.dev-bridgewise.com/customization/6a55d75f-d9e4-4e35-a24d-4349459130de/assets/font/regular-Inter.ttf") format("truetype");
+              src: url("../font/regular-Inter.ttf") format("truetype");
               font-weight: 400;
               font-display: swap;
             }
