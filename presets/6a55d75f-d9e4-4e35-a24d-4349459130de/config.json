@@ -28,6 +28,8 @@
     }
   },
   "translations": {
-    "en-US": {}
+    "en-US": {
+      "bridget_title": "7.46s per publish wtf"
+    }
   }
 }
