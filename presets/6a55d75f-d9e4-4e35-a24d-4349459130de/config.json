@@ -26,5 +26,10 @@
         "fullscreen": false
       }
     }
+  },
+  "translations": {
+    "en-US": {
+      "bridget_title": "another one"
+    }
   }
 }
